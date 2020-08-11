@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kofigyan.stateprogressbar.StateProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/stateProgressBar"
+    style="@style/H_WrapSize"
+    android:background="@color/colorPrimary"
+    app:spb_animationStartDelay="300"
+    app:spb_checkStateCompleted="true"
+    app:spb_currentStateDescriptionColor="@color/colorWhite"
+    app:spb_currentStateNumber="one"
+    app:spb_descriptionLinesSpacing="5dp"
+    app:spb_justifyMultilineDescription="true"
+    app:spb_maxStateNumber="three"
+    app:spb_stateBackgroundColor="@color/colorWhite"
+    app:spb_stateDescriptionColor="@color/colorWhite"
+    app:spb_stateForegroundColor="@color/green"
+    app:spb_stateNumberBackgroundColor="@color/textColorSecondary"
+    app:spb_stateNumberForegroundColor="@color/colorWhite" />

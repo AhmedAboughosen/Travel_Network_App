@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flexible_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_black">
+
+    <ImageView
+        android:id="@+id/close_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_back"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/down_load_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_download_black"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="18dp"
+        />
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/Image_Post"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/close_dialog"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="100dp"/>
+
+
+</RelativeLayout>

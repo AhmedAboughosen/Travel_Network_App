@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        style="@style/parent"
+        android:layout_height="180dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            style="@style/parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/ic_login_bk"
+            android:scaleType="fitXY"
+            android:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/font_style_bold"
+            android:gravity="center"
+            android:text="@string/what_are_you_interested_in"
+            android:textColor="@color/white"
+            android:textSize="22sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text1"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/font_style_regular"
+            android:gravity="center"
+            android:text="@string/title_of_interest_activity"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+
+    <include
+        layout="@layout/base_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray" />
+
+
+    <Button
+        android:id="@+id/next"
+        style="@style/loginButton"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/font_style_medium"
+        android:text="@string/next"
+        android:textColor="@color/colorWhite" />
+
+
+</LinearLayout>

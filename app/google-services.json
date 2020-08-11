@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "368958601446",
+    "firebase_url": "https://socialnetworkfortravelle-8f93c.firebaseio.com",
+    "project_id": "socialnetworkfortravelle-8f93c",
+    "storage_bucket": "socialnetworkfortravelle-8f93c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368958601446:android:5cb963f6b2e649a51d2327",
+        "android_client_info": {
+          "package_name": "com.example.socialnetworkfortravellers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368958601446-jss7bk2qrve6lkgrts4k63vbvnjj5der.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.socialnetworkfortravellers",
+            "certificate_hash": "46d42841adddb8461029d14ad8c700b9b0d09735"
+          }
+        },
+        {
+          "client_id": "368958601446-6hi2m1ffp091k7stv6k44qgq70070ro1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmDJdYPPcDnEfhvZ-ltB24dvWa86hcJyQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368958601446-6hi2m1ffp091k7stv6k44qgq70070ro1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

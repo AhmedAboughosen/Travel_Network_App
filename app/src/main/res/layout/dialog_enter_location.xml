@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E6ffffff"
+    android:layout_margin="10dp"
+    >
+
+    <AutoCompleteTextView
+        android:id="@+id/enter_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/e_location"
+        android:maxLines="1"
+        android:paddingStart="10dp"
+        android:layout_margin="15dp"
+        android:completionThreshold="1"/>
+
+
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_location"
+        android:layout_alignParentEnd="true"
+        android:text="@string/ok"
+        android:textColor="@color/textColorSecondary"
+        android:layout_marginEnd="15dp"
+        style="?android:attr/borderlessButtonStyle"
+        />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/enter_location"
+        android:layout_toStartOf="@id/ok"
+        android:text="@string/cancel"
+        android:textColor="@color/colorRed"
+        style="?android:attr/borderlessButtonStyle"
+
+        />
+</RelativeLayout>

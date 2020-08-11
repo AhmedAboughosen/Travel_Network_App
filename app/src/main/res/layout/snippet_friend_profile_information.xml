@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:shadow="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="430dp">
+
+    <LinearLayout
+        android:id="@+id/flexible_color"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:background="@drawable/blue_gradient"
+        android:orientation="horizontal" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@android:color/transparent">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/rounded_corner_5dp">
+
+            <com.dd.ShadowLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                shadow:sl_cornerRadius="10dp"
+                shadow:sl_dx="2dp"
+                shadow:sl_dy="2dp"
+                shadow:sl_shadowColor="@color/grey" />
+        </RelativeLayout>
+
+        <include
+            layout="@layout/snippet_user_info_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/follow_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="-15dp" />
+
+        <Button
+            android:id="@+id/follow_button"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:enabled="false"
+            android:layout_below="@id/user_profile_Image_shimmer"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/custom_button_circle"
+            android:text="@string/follow"
+            android:textColor="@color/colorAccent"
+
+            />
+
+
+        <Button
+            android:id="@+id/message"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/user_profile_Image_shimmer"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/custom_button_circle_gray"
+            android:text="@string/messsage"
+            android:textColor="@color/colorBlack"
+
+            />
+
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/user_profile_Image_shimmer"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/circle_for_shimmer" />
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,22 @@
+package com.example.socialnetworkfortravellers.DependencyInjectionLayer.Components.UserManagementComponents;
+
+
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.ContextModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.UserManagementModules.FriendProfileModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.UserManagementModules.ProfileModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.GetDataByUseAddValueEventModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.GetDataByUseSingleValueModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.GetUserInfoModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.SaveRawDataModule;
+import com.example.socialnetworkfortravellers.ViewLayer.Fragments.userManagementFragments.profileFragments.FriendProfileFragment;
+
+import javax.inject.Singleton;
+
+import dagger.Component;
+
+@Singleton
+@Component(modules = {GetDataByUseAddValueEventModule.class, ProfileModule.class, FriendProfileModule.class, ContextModule.class, SaveRawDataModule.class ,GetUserInfoModule.class, GetDataByUseSingleValueModule.class})
+public interface FriendProfileComponent {
+
+    void inject(FriendProfileFragment friendProfileFragment);
+}

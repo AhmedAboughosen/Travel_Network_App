@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.socialnetworkfortravellers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".utilLayer.StartApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon, android:supportsRtl">
+        <activity android:name=".ViewLayer.Activties.tripManagementActivities.FriendTripActivity"></activity>
+        <activity android:name=".ViewLayer.Activties.chatMessageActivities.MessengerActivity" />
+        <activity android:name=".ViewLayer.Activties.chatMessageActivities.ChatMessageActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.DisplayProfilePictureActivity" />
+        <activity android:name=".ViewLayer.Activties.tripManagementActivities.TripInformationActivity" />
+        <activity android:name=".ViewLayer.Activties.tripManagementActivities.MatchesTripActivity" />
+        <activity
+            android:name=".ViewLayer.Activties.StartUpActivity"
+            android:theme="@style/AppTheme.CenterAnimation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewLayer.Activties.tripManagementActivities.AddTripActivity" />
+        <activity android:name=".ViewLayer.Activties.commentManagementActivities.ReplyCommentActivity" />
+        <activity android:name="ly.ahmed_apps.calendarviewlibrary.HomeActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.displayListOfUserActivity.DisplayListOfUserActivity" />
+        <activity android:name=".ViewLayer.Activties.commentManagementActivities.CommentActivity" />
+        <activity android:name=".ViewLayer.Activties.postManagementActivities.EditPostActivity" />
+        <activity android:name=".ViewLayer.Activties.postManagementActivities.AddPostActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.suggestionActivity.FriendSuggestionActivity" />
+        <activity android:name=".ViewLayer.Activties.InterestManagementAcitivites.EditInterestActivity" />
+        <activity android:name=".ViewLayer.Activties.InterestManagementAcitivites.AddInterestActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.forgetAccountActivity.CheckEmailActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.forgetAccountActivity.ForgetAccountActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.deactivateAccountActivity.DeactivateAccountActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.editUserInformationActivity.UpdatePasswordActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.editUserInformationActivity.UpdateEmailActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.editUserInformationActivity.EditUserInformationActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.profileActivity.FriendProfileActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.findFriendsActivities.FindFriendActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.profileActivity.UserProfileActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.loginActivity.LoginActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.userRegistrationActivities.BioActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.userRegistrationActivities.ProfilePictureActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.userRegistrationActivities.SetUpActivity" />
+        <activity android:name=".ViewLayer.Activties.UserManagementActivties.userRegistrationActivities.RegisterActivity" />
+        <activity android:name=".ViewLayer.Activties.mainActivity.MainActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".utilLayer.ClickOnNotification"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.androidtest.BroadcastReceiver" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

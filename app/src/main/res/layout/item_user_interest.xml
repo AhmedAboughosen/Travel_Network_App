@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    card_view:cardCornerRadius="8dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/interest_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/interest_name"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="@color/transparent_black"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="@font/font_style_regular"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <!--             android:text="international Study"-->
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/check_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="false"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:background="@color/transparent_black"
+            />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

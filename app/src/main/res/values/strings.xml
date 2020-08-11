@@ -1,0 +1,164 @@
+<resources>
+    <string name="app_name">SocialNetworkApp</string>
+    <string name="user_name">username</string>
+    <string name="sign_in">Sign in</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="create_an_account">Create an Account ?</string>
+    <string name="welcome">Welcome Back!</string>
+    <string name="full_name">Full Name</string>
+    <string name="Get_Started">Let\'s Get Started!</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="lengh_password_message">your password must be at least 9 characters</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="have_an_account">Have an Account?</string>
+    <string name="to_continue">To Continue</string>
+    <string name="country">Country</string>
+    <string name="next">next</string>
+    <string name="gender">Gender : </string>
+    <string name="male">male</string>
+    <string name="female">female</string>
+    <string name="have_a_favourite_selfie_upload_it_now">Have a favourite selfie? Upload it now</string>
+    <string name="pick_profile_picture">Pick profile picture</string>
+    <string name="skip_for_now">Skip for now</string>
+    <string name="describe_yourself">Describe yourself</string>
+    <string name="what_makes_you_special_don_t_think_too_hard_just_have_fun_with_it">What makes you special? Don\'t think too hard just have fun with it.</string>
+    <string name="your_bio">Your Bio</string>
+    <string name="bio_count">0</string>
+    <string name="rationale_photo_picker">Allow Network to take pictures.</string>
+    <string name="file_provider">com.example.socialnetworkfortravellers.fileprovider</string>
+    <string name="pick_single">select</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="or">or</string>
+    <string name="add_post">post</string>
+    <string name="Moment">Share your Moment</string>
+    <string name="share">share</string>
+    <string name="home">Home</string>
+    <string name="eedit_profile">Edit profile</string>
+    <string name="like">Like</string>
+    <string name="comment">Comment</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="add_trip">Add Trip</string>
+    <string name="enter_trip_name">Enter Trip Name</string>
+    <string name="add_dates">Add Dates</string>
+    <string name="trip_full_text">Add a trip to see who else will be there when arrive and you can include pictures during each trip and your recommendation about city you visited</string>
+    <string name="select_destinations">Select Destination</string>
+    <string name="friends_in_this_trip">Friends in this trip</string>
+    <string name="start_date">Select Trip Date</string>
+    <string name="travel_destination">Enter your travel destination</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string name="e_location">Enter Location</string>
+    <string name="show_more">Show More</string>
+    <string name="show_less">Show Less</string>
+    <string name="select_location">Select Location</string>
+    <string name="allow">Allow</string>
+    <string name="denied">Denied</string>
+    <string name="pre_google_map">Allow "App" to access your Location while you are using the app</string>
+    <string name="select_date">Select Date</string>
+    <string name="arrival_date">Your arrival date</string>
+    <string name="des_add_info_fragment">Tell us About Trip</string>
+    <string name="done">I\'m done</string>
+    <string name="delete_trip">do you want to delete trip ?</string>
+    <string name="remove_info">it will due to remove information completely</string>
+    <string name="add_info">additional information</string>
+    <string name="when_you_were_born">when you were born?</string>
+    <string name="select_Country">select Country</string>
+    <string name="create_post">create post</string>
+    <string name="no_internet">it looks like you don\'t have an internet connection</string>
+    <string name="click_here_to_try_again">Tap to Retry</string>
+    <string name="edit">Edit</string>
+    <string name="find_friend">Find Friend</string>
+    <string name="search">Search</string>
+    <string name="search_for">Search for</string>
+    <string name="people_you_may_know">People You May Know</string>
+    <string name="follow">Follow</string>
+    <string name="create_an_account_to_qnetwork_to_get_all_feature">Create an account to QNetwork to get all feature</string>
+    <string name="favourites">Favourites</string>
+    <string name="title_of_interest_activity">Select some topics you\'re interested in to help personalise your experience, starting with fining people follow.</string>
+    <string name="suggestion_for_you_to_follow">Suggestion for you to follow</string>
+    <string name="when_you_follow_someone_you_ll_see_their_posts_in_your_home_timeline">when you follow someone, you\'ll see their Posts in your Home Timeline</string>
+    <string name="what_are_you_interested_in">What are you interested in?</string>
+    <string name="_done">done</string>
+    <string name="travellers_nearby">Users you may follow</string>
+    <string name="write_a_comment">Write a comment...</string>
+    <string name="Replies">Replies</string>
+
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save">Save</string>
+    <string name="name">Name</string>
+    <string name="bio">Bio</string>
+    <string name="location">Location</string>
+    <string name="profile_information">Profile Information</string>
+    <string name="email_address">Email Address</string>
+    <string name="deactivate_account">Deactivate Account</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="account">Account</string>
+    <string name="interest">Interest</string>
+    <string name="edit_interest">Edit Interest</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="at_least_9_character">at Least 9 character</string>
+    <string name="update_password">Update Password</string>
+    <string name="update_email">Update Email</string>
+    <string name="new_email">New Email</string>
+    <string name="facebook_app_id">683616052388889</string>
+    <string name="fb_login_protocol_scheme">fb683616052388889</string>
+
+    <string name="find_your_account">Find Your Account</string>
+    <string name="please_enter_your_email_address_to_search_for_your_account">Please enter your email address to search for your account</string>
+    <string name="check_your_email">Check your Email</string>
+    <string name="account_information">Account Information</string>
+    <string name="current_email">Current Email</string>
+    <string name="messsage">Messsage</string>
+    <string name="deactivate_your_account">Deactivate your account</string>
+    <string name="this_will_deactivate_your_account">this will deactivate your account</string>
+
+    <string name="hello">
+   <![CDATA[
+   <html>
+ <head></head>
+ <body style="text-align:justify;color:gray;background-color:black;">
+ you\'re about to start the process of deactivating your Network account.\n Your display name and public profile will no longer be viewable on network app.\n
+ </body>
+</html>
+]]>
+</string>
+    <string name="deactivate">Deactivate</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="mutual_friend">Mutual Friend</string>
+    <string name="start_a_message">Start a message</string>
+    <string name="send">send</string>
+    <string name="profile">Profile</string>
+    <string name="country_name">Country Name</string>
+
+
+    <string name="register">Create</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="app_title">Social QNetwork</string>
+    <string name="retry">retry</string>
+    <string name="no_results_found_for">No results found for</string>
+    <string name="update">update</string>
+    <string name="delete">Delete</string>
+    <string name="edit_post">Edit Post</string>
+    <string name="save_post">Save Post</string>
+    <string name="people_who_liked">People Who liked</string>
+    <string name="are_you_sure_you_want_to_choose_the_country">Are you sure you want to choose the country?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="comments">Comments</string>
+    <string name="chats">Chats</string>
+
+    <string name="homeItem">Home</string>
+    <string name="exploreItem">Explore</string>
+    <string name="notificationItem">Notification</string>
+    <string name="trending_users">Trending Users</string>
+    <string name="messaging">Messaging</string>
+    <string name="search_messages">Search Messages</string>
+</resources>

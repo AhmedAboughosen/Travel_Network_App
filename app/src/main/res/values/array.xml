@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="ld_activityScreenTitles">
+        <item>Home</item>
+        <item>Add New Post</item>
+        <item>Profile</item>
+        <item>Find Friends</item>
+        <item>messenger</item>
+        <item>Add New Trip</item>
+        <item>Travel Buddy</item>
+        <item>Settings</item>
+        <item />
+        <item>Logout</item>
+    </string-array>
+
+    <array name="ld_activityScreenIcons">
+        <item>@drawable/ic_new_post</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_find_friends</item>
+        <item>@drawable/ic_chat</item>
+        <item>@drawable/ic_add_trip</item>
+        <item>@drawable/ic_plane</item>
+        <item>@drawable/ic_settings</item>
+        <item>0</item>
+        <item>@drawable/ic_logout</item>
+    </array>
+
+    <string-array name="list_of_countries">
+        <item>India</item>
+        <item>USA</item>
+        <item>China</item>
+        <item>Canada</item>
+        <item>Germany</item>
+        <item>Germ</item>
+        <item>Ger</item>
+        <item>Ge</item>
+        <item>Ge</item>
+        <item>Germ</item>
+        <item>France</item>
+        <item>Spain</item>
+        <item>Japan</item>
+    </string-array>
+
+</resources>

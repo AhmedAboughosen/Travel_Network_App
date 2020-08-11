@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This LinearLayout represents the contents of the main activity  -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white" />
+
+    <include layout="@layout/layout_bottom_navigation_view" />
+</LinearLayout>

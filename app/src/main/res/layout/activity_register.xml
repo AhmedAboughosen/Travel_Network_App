@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="5dp">
+
+    <androidx.core.widget.NestedScrollView
+        style="@style/parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+
+            <TextView
+                style="@style/custom_text_view_one"
+                android:layout_marginTop="20sp"
+                android:gravity="center"
+                android:text="Let's Get Started! "
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_style_regular"
+                android:gravity="center"
+                android:text="Create an account to NetTravel to get all features"
+                android:textColor="@color/textColorSecondary"
+                android:textSize="16sp" />
+
+
+            <LinearLayout
+                android:id="@id/loginCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/custom_TextInputLayout"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="60dp"
+                    android:layout_marginRight="25dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/email"
+                        style="@style/custom_edit_text"
+                        android:fontFamily="@font/font_style_regular"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:maxLength="@integer/max_of_email">
+
+                        <requestFocus />
+                    </com.google.android.material.textfield.TextInputEditText>
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/custom_TextInputLayout"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="25dp"
+                    android:elevation="6dp"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/password"
+                        style="@style/custom_edit_text"
+                        android:fontFamily="@font/font_style_regular"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:maxLength="@integer/max_of_password" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    style="@style/custom_TextInputLayout"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="25dp"
+                    android:elevation="6dp"
+                    app:passwordToggleEnabled="true">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/confirm_password"
+                        style="@style/custom_edit_text"
+                        android:fontFamily="@font/font_style_regular"
+                        android:hint="@string/password"
+                        android:inputType="textPassword"
+                        android:maxLength="@integer/max_of_password" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <Button
+                    android:id="@+id/sign_up"
+                    style="@style/loginButton"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:elevation="10dp"
+                    android:fontFamily="@font/font_style_regular"
+                    android:text="@string/register" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/sign_in"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginRight="30dp"
+                android:fontFamily="@font/font_style_bold"
+                android:gravity="center"
+                android:text="already have an account? sign in"
+                android:textColor="@color/colorPrimary"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.cardview.widget.CardView>

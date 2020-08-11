@@ -1,0 +1,25 @@
+package com.example.socialnetworkfortravellers.DependencyInjectionLayer.Components.commentManagementComment;
+
+
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.ContextModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.CompressImageUtilModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.GetDataByUseSingleValueModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.GetUserInfoModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.RemoveDataModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.SaveImageModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.SaveRawDataModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.baseModules.UpdatePathUsingTransactionModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.commentManagementModules.AddCommentModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.commentManagementModules.DisplayCommentModule;
+import com.example.socialnetworkfortravellers.DependencyInjectionLayer.Modules.commentManagementModules.LikeAndDisLikeModule;
+import com.example.socialnetworkfortravellers.ViewLayer.Activties.commentManagementActivities.ReplyCommentActivity;
+
+import javax.inject.Singleton;
+
+import dagger.Component;
+
+@Singleton
+@Component(modules = {ContextModule.class, CompressImageUtilModule.class, GetUserInfoModule.class, RemoveDataModule.class, LikeAndDisLikeModule.class, SaveImageModule.class, SaveRawDataModule.class, AddCommentModule.class, UpdatePathUsingTransactionModule.class, DisplayCommentModule.class, GetDataByUseSingleValueModule.class})
+public interface ReplyCommentComponent {
+    void inject(ReplyCommentActivity replyCommentActivity);
+}

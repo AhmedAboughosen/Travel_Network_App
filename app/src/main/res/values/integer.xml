@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <integer name="max_of_full_Name">30</integer>
+    <integer name="max_of_comment_text">200</integer>
+    <integer name="max_of_email">30</integer>
+    <integer name="max_of_password">30</integer>
+    <integer name="max_of_bio">60</integer>
+    <integer name="max_of_Joined_date">60</integer>
+
+</resources>

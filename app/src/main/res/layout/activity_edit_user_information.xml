@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <!-- toolbar section -->
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@drawable/white_grey_border_bottom"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:titleTextAppearance="@font/font_style_medium"
+            app:titleTextColor="@color/colorPrimaryDark">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/font_style_regular"
+                    android:text="@string/edit_profile"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                    android:textColor="@color/colorBlack" />
+
+                <Button
+                    android:id="@+id/update_data"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="5dp"
+                    android:fontFamily="@font/font_style_regular"
+                    android:gravity="center|bottom"
+                    android:text="@string/update"
+                    android:textColor="@color/colorPrimary" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <LinearLayout
+            android:id="@+id/download_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/retry"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/font_style_bold"
+                android:gravity="center"
+                android:text="retry again"
+                android:textColor="@color/colorRed"
+                android:textSize="12sp"
+                android:visibility="gone" />
+        </LinearLayout>
+        <!-- Profile Image section -->
+        <LinearLayout
+            android:id="@+id/flexible_color"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@id/download_data"
+            android:background="@drawable/blue_gradient"
+            android:orientation="horizontal" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/flexible_color"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/user_image"
+            app:civ_border_color="@color/colorWhite"
+            app:civ_border_width="2dp" />
+
+
+        <!-- basic Information section -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/mfull_name"
+            style="@style/custom_TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profile_image"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/fullname"
+                style="@style/custom_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/font_style_regular"
+                android:hint="@string/name"
+                android:inputType="text"
+                android:maxLength="@integer/max_of_full_Name"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/textColorSecondary" />
+
+            <requestFocus />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/mBio"
+            style="@style/custom_TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mfull_name"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/Bio"
+                style="@style/custom_edit_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:fontFamily="@font/font_style_regular"
+                android:hint="@string/bio"
+                android:inputType="text"
+                android:maxLength="@integer/max_of_bio"
+                android:maxLines="1"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:singleLine="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/textColorSecondary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/text_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mBio"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font_style_medium"
+            android:text="@string/select_Country"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/textColorSecondary" />
+
+        <TextView
+            android:id="@+id/error_load_Country"
+            style="@style/parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_below="@id/text_location"
+            android:fontFamily="@font/font_style_medium"
+            android:text="something went wrong when we try  get countries List, please try later."
+            android:textColor="@color/colorRed"
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@id/location"
+            style="@style/spinner_style"
+            android:layout_below="@id/error_load_Country"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:gravity="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+        <TextView
+            android:id="@+id/text_date_of_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/location"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font_style_medium"
+            android:text="@string/date_of_birth"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/textColorSecondary" />
+
+
+        <DatePicker
+            android:id="@+id/birth_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_date_of_birth"
+            android:layout_marginTop="10dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            android:endYear="2019"
+            android:startYear="1900" />
+
+        <TextView
+            android:id="@+id/text_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/birth_day"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/font_style_medium"
+            android:text="@string/gender"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/textColorSecondary" />
+
+
+        <LinearLayout
+            android:id="@+id/gender_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_gender"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/gender"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:fontFamily="@font/font_style_medium"
+                    android:text="@string/male"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+                <RadioButton
+                    android:id="@+id/femle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/font_style_medium"
+                    android:text="@string/female"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+
+        <!-- profile information section -->
+        <TextView
+            android:id="@+id/text_social"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender_layout"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/font_style_bold"
+            android:text="@string/account_information"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack" />
+
+
+        <Button
+            android:id="@+id/Email_address"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_social"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/font_style_regular"
+            android:maxLength="40"
+            android:text="@string/email_address"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/colorBlack" />
+
+
+        <Button
+            android:id="@+id/password"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Email_address"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/font_style_regular"
+            android:paddingStart="12dp"
+            android:paddingEnd="5dp"
+            android:text="@string/password"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="@color/colorBlack" />
+
+
+        <TextView
+            android:id="@+id/text_interest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/font_style_bold"
+            android:text="@string/interest"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack" />
+
+        <Button
+            android:id="@+id/interest"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_interest"
+            android:fontFamily="@font/font_style_regular"
+            android:text="@string/edit_interest"
+            android:textColor="@color/colorBlack" />
+
+
+        <TextView
+            android:id="@+id/text_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/interest"
+            android:layout_gravity="left"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/font_style_bold"
+            android:text="@string/account"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/colorBlack" />
+
+        <Button
+            android:id="@+id/deactive_accout"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_account"
+            android:fontFamily="@font/font_style_regular"
+            android:text="@string/deactivate_account" />
+    </RelativeLayout>
+
+</ScrollView>

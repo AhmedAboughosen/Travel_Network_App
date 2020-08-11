@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shimmer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--Top section which contain  important information such as username and profile image and location-->
+        <include layout="@layout/snippet_user_info_of_post" />
+
+
+        <!--middle section which you can set post images and details or video-->
+        <include layout="@layout/snippet_post_content" />
+
+        <!--Bottom section which you can like or left comment or share post-->
+        <include layout="@layout/snippet_item_for_likes_comments" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:background="@color/grey" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_profile_info_shimmer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/nav_user_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/shimmer"
+                    android:fontFamily="@font/font_style_medium"
+                    android:maxLength="40"
+                    android:text="                     "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/colorBlack" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/flag"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="15dp"
+                    android:background="@drawable/circle_for_shimmer" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="7dp"
+                android:background="@color/shimmer"
+                android:fontFamily="@font/font_style_medium"
+                android:maxLength="60"
+                android:text="                       "
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/textColorSecondary" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_location_opened" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="3dp"
+                    android:background="@color/shimmer"
+                    android:fontFamily="@font/font_style_regular"
+                    android:gravity="center"
+                    android:maxLength="15"
+                    android:text="                     "
+                    android:textColor="@color/textColorSecondary"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:src="@drawable/ic_calendar" />
+
+                <TextView
+                    android:id="@+id/Joined_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:background="@color/shimmer"
+                    android:fontFamily="@font/font_style_regular"
+                    android:maxLength="30"
+                    android:textColor="@color/textColorSecondary"
+                    android:text="                     "
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <include
+            layout="@layout/snippet_count_profile_information"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom" />
+
+
+        <include
+            layout="@layout/base_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+         />
+
+    </LinearLayout>
+
+
+</com.facebook.shimmer.ShimmerFrameLayout>
+

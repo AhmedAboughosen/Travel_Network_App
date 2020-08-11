@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Top section which contain  snippet add trip toolbar-->
+
+    <RelativeLayout
+        android:id="@+id/homeToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+
+    <!--middle section which contain  snippet step view -->
+    <include layout="@layout/snippet_state_progress_bar_add_trip" />
+
+    <!--bottom section which contain  snippet layout for fragment-->
+    <LinearLayout
+        android:id="@+id/trip_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>

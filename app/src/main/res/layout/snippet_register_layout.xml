@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loginCard"
+    style="@style/loginCard"
+    android:layout_gravity="center"
+    android:layout_marginTop="@dimen/loginViewsMargin"
+    android:layout_marginBottom="@dimen/loginViewsMargin"
+    android:background="@color/white"
+    android:elevation="5dp"
+    app:cardCornerRadius="@dimen/loginCardRadius">
+
+    <LinearLayout
+        style="@style/linearParent"
+        android:layout_gravity="center"
+        android:padding="@dimen/loginViewsMargin">
+
+        <TextView
+            style="@style/headerTextPrimary"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/register" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+
+            <EditText
+                android:id="@+id/email"
+                style="@style/modifiedEditText"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLength="50"
+                android:maxLines="1" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+
+            <com.subhrajyoti.passwordview.PasswordView
+                android:id="@+id/password"
+                style="@style/modifiedEditText"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/opensans_regular"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                app:eyeTint="@color/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/parent"
+            android:layout_marginTop="@dimen/signup_text_margin_top">
+
+            <com.subhrajyoti.passwordview.PasswordView
+                android:id="@+id/confirm_password"
+                style="@style/modifiedEditText"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/opensans_regular"
+                android:hint="@string/confirm_password"
+                android:inputType="textPassword"
+                android:maxLength="20"
+                android:maxLines="1"
+                app:eyeTint="@color/colorPrimary" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/sign_up"
+            style="@style/loginButton"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/register" />
+
+        <TextView
+            android:id="@+id/sign_in"
+            style="@style/parent"
+            android:layout_marginTop="@dimen/loginViewsMargin"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/signup_login_hint"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -62,6 +62,10 @@ public class GetAllCountryService {
                                     cityItem.setCityName(name);
                                     cityItem.setFlag(flag);
                                     cityItem.setCode(code);
+                                    if (cityItem.getCode().equals("LY")){
+                                        list.add(0 , cityItem);
+                                        continue;
+                                    }
                                     list.add(cityItem);
                                 }
 

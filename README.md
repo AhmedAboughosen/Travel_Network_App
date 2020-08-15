@@ -57,7 +57,7 @@ NetTravel App help user to find friends depending on the information provided on
 ### Travel Feed and users you may follow
 Our goal with Travel Feed is to show you the stories that matter most to you, every time you visit NetTravel. Your Travel Feed is a personalised, ever-changing collection of photos,  updates from the friends, family, businesses and news sources that you've connected to on NetTravel.
 
-| <img src="https://user-images.githubusercontent.com/55014628/90310717-80a67300-def4-11ea-9d4b-159b3d8872bb.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90310719-8ac87180-def4-11ea-96c4-ec15ed27d922.jpg" width="200px"> | <img src="https://raw.githubusercontent.com/project-travel-mate/Travel-Mate/master/.github/screenshots/checklist.png" width="200px"> |
+| <img src="https://user-images.githubusercontent.com/55014628/90310717-80a67300-def4-11ea-9d4b-159b3d8872bb.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90310719-8ac87180-def4-11ea-96c4-ec15ed27d922.jpg" width="200px"> |  |
 | - | - | - |
 
 ### Contributing

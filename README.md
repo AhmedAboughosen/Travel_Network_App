@@ -54,10 +54,10 @@ NetTravel App help user to find friends depending on the information provided on
 | <img src="https://user-images.githubusercontent.com/55014628/90301131-4611eb80-de9e-11ea-93d6-67845f9a1900.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90301133-4ad69f80-de9e-11ea-8397-02feb13b65f9.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90301135-4f9b5380-de9e-11ea-8d8e-cf7c2ae8d788.jpg" width="200px"> |
 | - | - | - |
 
-### Utility
-Travel Mate gives a bunch of helpful utilities in one app including World Clock, checklists, share your contact.
+### Travel Feed and users you may follow
+Our goal with Travel Feed is to show you the stories that matter most to you, every time you visit NetTravel. Your Travel Feed is a personalised, ever-changing collection of photos,  updates from the friends, family, businesses and news sources that you've connected to on NetTravel.
 
-| <img src="https://raw.githubusercontent.com/project-travel-mate/Travel-Mate/master/.github/screenshots/world_clock.jpeg" width="200px"> | <img src="https://raw.githubusercontent.com/project-travel-mate/Travel-Mate/master/.github/screenshots/share_my_contact.png" width="200px"> | <img src="https://raw.githubusercontent.com/project-travel-mate/Travel-Mate/master/.github/screenshots/checklist.png" width="200px"> |
+| <img src="https://user-images.githubusercontent.com/55014628/90310717-80a67300-def4-11ea-9d4b-159b3d8872bb.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90310719-8ac87180-def4-11ea-96c4-ec15ed27d922.jpg" width="200px"> | <img src="https://raw.githubusercontent.com/project-travel-mate/Travel-Mate/master/.github/screenshots/checklist.png" width="200px"> |
 | - | - | - |
 
 ### Contributing

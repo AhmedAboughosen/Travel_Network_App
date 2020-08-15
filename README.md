@@ -20,7 +20,7 @@ With NetTravel you can plan a trip, create a trip homepage, send invitations to 
 - MVP Architecture.
 - Material Design.
 - firebase database.
-- volley  3.
+- volley  .
 - Dagger 2.
 - graph algorithms.
 

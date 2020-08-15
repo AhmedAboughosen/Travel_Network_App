@@ -60,6 +60,47 @@ Our goal with Travel Feed is to show you the stories that matter most to you, ev
 | <img src="https://user-images.githubusercontent.com/55014628/90310717-80a67300-def4-11ea-9d4b-159b3d8872bb.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90310719-8ac87180-def4-11ea-96c4-ec15ed27d922.jpg" width="200px"> |  |
 | - | - | - |
 
+### Notifications
+Notifications are updates about activity on NetTravel. 
+
+| <img src="https://user-images.githubusercontent.com/55014628/90310903-34f4c900-def6-11ea-9bad-f8d4dbcf9419.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90310904-37572300-def6-11ea-94a0-0260e1ba589d.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90310913-42aa4e80-def6-11ea-9a5a-f0f3934a8ba4.jpg" width="200px"> |
+| - | - | - |
+
+### Comment and Replies and People who reacted
+The comments plugin lets people comment on content on your Post using their NetTravel account.
+
+| <img src="https://user-images.githubusercontent.com/55014628/90311092-fb24c200-def7-11ea-8573-3b7377bf5e28.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311096-fe1fb280-def7-11ea-893b-0fbf0ab929ec.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311168-928a1500-def8-11ea-99c0-a8fb9bb945be.jpg" width="200px"> |
+| - | - | - |
+
+### Profile Screen
+A profile is a place on NetTravel where you can share information about yourself, such as your interests, photos, current city and hometown. To see your profile, click or tap your  profile picture at the top of NetTravel.
+
+| <img src="https://user-images.githubusercontent.com/55014628/90311252-468ba000-def9-11ea-8ea4-a1f48d1a6aec.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311257-50150800-def9-11ea-9f8f-89e16ef21d41.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311261-56a37f80-def9-11ea-99aa-bee7c5677614.jpg" width="200px"> |
+| - | - | - |
+
+| <img src="https://user-images.githubusercontent.com/55014628/90311304-cc0f5000-def9-11ea-8224-190939e8390c.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311369-6ff8fb80-defa-11ea-94ca-745d65250e72.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311371-725b5580-defa-11ea-9f07-5910c190977c.jpg" width="200px"> |
+| - | - | - |
+
+### Deactivate Account
+You can deactivate your NetTravel account as an alternative to deleting it ; unlike deleting, deactivating your profile will hide it from others but still allow you to come back.
+
+
+| <img src="https://user-images.githubusercontent.com/55014628/90311373-74251900-defa-11ea-92c8-da65ca78d326.jpg" width="200px"> | |  |
+| - | - | - |
+
+### Create and Edit Post.
+Create beautiful NetTravel Posts and Edit it.
+
+| <img src="https://user-images.githubusercontent.com/55014628/90311720-77220880-defe-11ea-9410-cf76b3506cfb.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311721-7e491680-defe-11ea-8bb3-e7ed0247c901.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311723-830dca80-defe-11ea-8076-d7acce684015.jpg" width="200px"> |
+| - | - | - |
+
+### Find Friend and People you may Know.
+
+
+| <img src="https://user-images.githubusercontent.com/55014628/90311872-02e86480-df00-11ea-90a5-94894fb2d41d.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311874-067beb80-df00-11ea-8d0e-1f56c3b515b9.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311869-ffed7400-deff-11ea-93f2-37df37ea1053.jpg" width="200px"> |
+| - | - | - |
+
+
 ### Contributing
 Check out the [Getting Started](GETTING_STARTED.md) page to add an awesome new feature or bash some bugs. If you're new to open-source, we recommend you to checkout our [Contributing Guidelines](CONTRIBUTING.md). 
 

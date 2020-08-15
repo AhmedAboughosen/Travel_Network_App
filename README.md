@@ -19,6 +19,7 @@ With NetTravel you can plan a trip, create a trip homepage, send invitations to 
 - Java.
 - MVP Architecture.
 - Material Design.
+- AndroidX
 - firebase database.
 - volley  .
 - Dagger 2.
@@ -119,6 +120,7 @@ Create beautiful NetTravel Posts and Edit it.
 
 
 ### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Feel free to fork the project and send us a pull request or even open a [new issue](https://github.com/AhmedAboughosen/Travel_Network_App/issues/new) to start discussion. 
 

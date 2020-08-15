@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">TravelNet</string>
+    <string name="app_name">TravelNet </string>
     <string name="user_name">username</string>
     <string name="sign_in">Sign in</string>
     <string name="email">Email address</string>

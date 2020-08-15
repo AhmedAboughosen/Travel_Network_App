@@ -15,6 +15,16 @@ With NetTravel you can plan a trip, create a trip homepage, send invitations to 
 [<img src="https://f-droid.org/badge/get-it-on.png" height="80">]()
 
 
+## Libraries, Languages and Concepts
+- Java.
+- MVP Architecture.
+- Material Design.
+- firebase database.
+- volley  3.
+- Dagger 2.
+- graph algorithms.
+
+
 
 ## Features
 ### login and registration screen 

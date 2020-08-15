@@ -11,23 +11,10 @@ With NetTravel you can plan a trip, create a trip homepage, send invitations to 
 
 ## Download
 
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="80">](https://play.google.com/store/apps/details?id=io.github.project_travel_mate)
-[<img src="https://f-droid.org/badge/get-it-on.png" height="80">](https://f-droid.org/packages/io.github.project_travel_mate/)
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="80">]()
+[<img src="https://f-droid.org/badge/get-it-on.png" height="80">]()
 
-## Support Us
-We are not running any ads in the app and the source code is available for free on [GitHub](https://github.com/project-travel-mate). It costs us to keep the servers up all the time. Support us to make sure we continue to help travellers.
 
-<a href="https://www.buymeacoffee.com/qITGMWB" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
-## Quick Links
-+ **[Journey of a hackathon project to a Summer of Code Project](https://medium.com/@prabhakar267/6a1b8c1d5e3e)**
-+ **[Features](#features)**
-  + [Destinations](#destinations)
-  + [My Trips](#my-trips)
-  + [Travel](#travel)
-  + [Utility](#utility)
-+ **[Contributing](#contributing)**
-+ **[Join Travel Mate Beta Testing](https://play.google.com/apps/testing/io.github.project_travel_mate)**
 
 ## Features
 ### login and registration screen 
@@ -122,11 +109,6 @@ Create beautiful NetTravel Posts and Edit it.
 
 
 ### Contributing
-Check out the [Getting Started](GETTING_STARTED.md) page to add an awesome new feature or bash some bugs. If you're new to open-source, we recommend you to checkout our [Contributing Guidelines](CONTRIBUTING.md). 
 
-Feel free to fork the project and send us a pull request or even open a [new issue](https://github.com/project-travel-mate/Travel-Mate/issues/new) to start discussion. 
+Feel free to fork the project and send us a pull request or even open a [new issue](https://github.com/AhmedAboughosen/Travel_Network_App/issues/new) to start discussion. 
 
-
-## Stargazers over time
-
-[![Stargazers over time](https://starcharts.herokuapp.com/Swati4star/Travel-Mate.svg)](https://starcharts.herokuapp.com/Swati4star/Travel-Mate)

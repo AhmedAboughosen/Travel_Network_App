@@ -11,8 +11,7 @@ With NetTravel you can plan a trip, create a trip homepage, send invitations to 
 
 ## Download
 
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height="80">]()
-[<img src="https://f-droid.org/badge/get-it-on.png" height="80">]()
+<a href="https://drive.google.com/file/d/1oYr6VAhQNXl2BefcPwZ_An5mD4lJ9XMS/view?usp=sharing"><img src="https://user-images.githubusercontent.com/55014628/90318864-b159cd00-df33-11ea-869c-a8cd28233cb3.png" width="32%" /></a>
 
 
 ## Libraries, Languages and Concepts

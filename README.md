@@ -1,12 +1,12 @@
 # NetTravel App
 
-[![Build Status](https://travis-ci.org/project-travel-mate/Travel-Mate.svg?branch=master)](https://travis-ci.org/project-travel-mate/Travel-Mate) [![Uplabs](https://img.shields.io/badge/Uplabs-PhotoEditor-orange.svg)](https://www.uplabs.com/posts/travel-mate) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
 
 NetTravel  will allow you to build a network of other travelers and share experiences and tips. It provides features like **Find Buddies for Trip**, **meet other travelers with similar interests**, and **organizing the trip**. 
 With NetTravel you can plan a trip, create a trip homepage, send invitations to friends, share information, discuss places to go, map your travels and more.
 
 
-| <img src="https://raw.githubusercontent.com/project-travel-mate/Travel-Mate/master/.github/screenshots/all_cities.png" width="200px"> | <img src="https://raw.githubusercontent.com/project-travel-mate/Travel-Mate/master/.github/screenshots/one_city.png" width="200px"> | <img src="https://raw.githubusercontent.com/project-travel-mate/Travel-Mate/master/.github/screenshots/city_here.png" width="200px"> |
+| <img src="https://user-images.githubusercontent.com/55014628/90310717-80a67300-def4-11ea-9d4b-159b3d8872bb.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90311252-468ba000-def9-11ea-8ea4-a1f48d1a6aec.jpg" width="200px"> | <img src="https://user-images.githubusercontent.com/55014628/90312160-8e62f500-df02-11ea-898a-0a4c00cef92a.jpg" width="200px"> |
 | - | - | - |
 
 ## Download

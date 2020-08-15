@@ -104,6 +104,7 @@ public class EditInterestActivity extends BaseActivity {
                 mProgressBar.setVisibility(View.GONE);
                 finishWaiting();
                 showMessagesError(message);
+                isState = true;
             }
 
             @Override

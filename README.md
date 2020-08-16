@@ -26,6 +26,12 @@ With NetTravel you can plan a trip, create a trip homepage, send invitations to 
 - graph algorithms.
 
 
+# Architecture
+I choose to use MVP (Model-View-Presenter) as  project architecture in order to provide a cleaner code, with clear separation between the view, the data and the business logic.
+The following diagram shows all the modules and how each module interact with one another after. This architecture using a layered software architecture.
+
+<img src="https://user-images.githubusercontent.com/55014628/90343554-d6bd0880-e011-11ea-9e72-475c0c3b551c.png"> 
+
 
 ## Features
 ### login and registration screen 
